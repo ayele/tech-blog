@@ -1,0 +1,199 @@
+:root {
+  --theme: #fb4e4e;
+  --borders: #ccc;
+}
+
+body {
+  font: 15px 'JetBrains Mono', sans-serif;
+  background: #f4f4f4;
+  color: #333333;
+}
+
+.logo {
+  text-align: center;
+  margin: auto;
+  display: block;
+  width: 750px;
+  height: 160px;
+}
+
+.container {
+  width: 750px;
+  margin: 20px auto;
+  padding: 20px;
+  /* border-top: var(--theme) 3px solid; */
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.clr {
+  clear: both;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+  padding: 5px 0;
+  margin-bottom: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.post img {
+  width: 100%;
+}
+
+.post p {
+  white-space: pre-wrap;
+  line-height: 1.6;
+}
+
+nav {
+  background: #333333;
+  color: #fff;
+  overflow: auto;
+  height: 40px;
+  padding: 20px 0 0 10px;
+  font-size: 18px;
+}
+
+nav li {
+  float: left;
+  list-style: none;
+}
+
+nav a {
+  padding: 10px;
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a:active {
+  background: var(--theme);
+  color: #000;
+}
+
+.meta {
+  padding: 7px;
+  border: 1px solid #f2f2f2;
+  background: var(--borders);
+  margin-bottom: 10px;
+}
+
+.post {
+  border-bottom: 1px solid var(--borders);
+  padding-bottom: 20px;
+}
+
+a.more {
+  display: block;
+  width: 85px;
+  background: var(--theme);
+  color: #fff;
+  padding: 10px;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+.post h1 a {
+  color: #333333;
+  text-decoration: none;
+}
+
+input,
+select,
+textarea {
+  margin-bottom: 15px;
+}
+
+label {
+  display: inline-block;
+  width: 180px;
+}
+
+input[type='text'],
+select,
+textarea {
+  padding: 3px;
+  height: 20px;
+  width: 200px;
+  border: 1px var(--borders) solid;
+}
+
+select {
+  height: 28px;
+}
+
+textarea {
+  height: 70px;
+  width: 400px;
+  vertical-align: top;
+}
+
+.form-header {
+  color: var(--theme);
+  margin-bottom: 20px;
+}
+
+.comment{
+  margin-top: 10px;
+}
+
+.comment-name {
+  padding: 0px;
+  margin-bottom: 3px;
+}
+
+.comment-date {
+  padding: 0px;
+  font-size: 13px;
+}
+
+.comment-body {
+  margin-top: 5px;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+ul.success li {
+  padding: 10px 0px 10px 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  list-style: none;
+}
+
+ul.errors {
+  list-style: none;
+}
+
+.alert {
+  padding: 10px 0px 10px 15px;
+  margin-bottom: 10px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.alert-danger {
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  color: #a94442;
+}
